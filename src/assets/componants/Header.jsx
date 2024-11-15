@@ -32,7 +32,7 @@ const Header = () => {
   }, []);
   return (
     <header>
-      <div className="relative">
+      <div smooth={true} className="relative">
         <div
           id="desktop-menu"
           className={`fixed top-0 z-20 hidden w-full items-center justify-around text-white md:flex ${
@@ -60,11 +60,7 @@ const Header = () => {
                     Rooms & Services
                   </ScrollLink>
                 </li>
-                <li className="cursor-pointer">
-                  <ScrollLink to="testimonials" smooth={true} duration={500}>
-                    Testimonials
-                  </ScrollLink>
-                </li>
+                
                 <li className="cursor-pointer">
                   <ScrollLink to="gallery" smooth={true} duration={500}>
                     Gallery
@@ -154,16 +150,7 @@ const Header = () => {
                     Rooms & Services
                   </ScrollLink>
                 </li>
-                <li className="cursor-pointer">
-                  <ScrollLink
-                    to="testimonials"
-                    smooth={true}
-                    duration={500}
-                    className="block px-4 py-3 border-b"
-                  >
-                    Testimonials
-                  </ScrollLink>
-                </li>
+              
                 <li className="cursor-pointer">
                   <ScrollLink
                     to="gallery"

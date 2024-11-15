@@ -1,8 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 import { FaLongArrowAltRight } from "react-icons/fa";
-
 
 const roomData = [
   {
@@ -40,6 +41,12 @@ const Roomslider = () => {
     ],
   };
 
+  const images = [
+    "https://via.placeholder.com/800x400?text=Slide+1",
+    "https://via.placeholder.com/800x400?text=Slide+2",
+    "https://via.placeholder.com/800x400?text=Slide+3",
+  ];
+
   return (
     <section id="rooms" className="py-12">
       <div className="mx-auto w-5/6">
@@ -66,7 +73,8 @@ const Roomslider = () => {
                     {room.title}
                   </h3>
                   <p className="mb-2 text-sm">
-                    Starting From <span className="text-base font-bold">{room.price}</span>
+                    Starting From{" "}
+                    <span className="text-base font-bold">{room.price}</span>
                   </p>
                   <p className="text-sm">{room.description}</p>
                   <div className="my-2 flex gap-3">
@@ -105,7 +113,11 @@ const FeatureIcon = () => (
     stroke="currentColor"
     className="mr-1 inline-block size-5"
   >
-    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+    />
   </svg>
 );
 
