@@ -1,22 +1,39 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
+import gal6 from "../img/gal6.webp";
+import gal1 from "../img/gal1.webp";
+import gal2 from "../img/gal2.webp";
+import gal3 from "../img/gal3.webp";
+import gal4 from "../img/gal4.webp";
+import gal5 from "../img/gal5.webp";
+import gal7 from "../img/gal7.webp";
 
 const galleryData = [
   {
-    img: "https://uniquecraftss.in/wp-content/uploads/2024/10/banner.webp",
+    img: `${gal6}`,
   },
   {
-    img: "https://uniquecraftss.in/wp-content/uploads/2024/10/banner.webp",
+    img: `${gal1}`,
   },
   {
-    img: "https://uniquecraftss.in/wp-content/uploads/2024/10/banner.webp",
+    img: `${gal3}`,
   },
   {
-    img: "https://uniquecraftss.in/wp-content/uploads/2024/10/banner.webp",
+    img: `${gal4}`,
   },
   {
-    img: "https://uniquecraftss.in/wp-content/uploads/2024/10/banner.webp",
+    img: `${gal2}`,
   },
+ 
+  {
+    img: `${gal5}`,
+  },
+  {
+    img: `${gal7}`,
+  },
+ 
+
+ 
 ];
 
 const Galleryslider = () => {

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import banner1 from '../img/banner1.webp'
 import {
 	FaEnvelope,
 	FaMobile,
@@ -13,7 +14,7 @@ const Banner = () => {
   return (
     <section id="banner">
     <div
-        style={{ backgroundImage: `url("https://templates.envytheme.com/ecorik/default/assets/img/home-one/slider/slider-img-1.jpg")` }}
+        style={{ backgroundImage: `url(${banner1})` }}
         className="relative m-auto w-full bg-cover bg-center bg-no-repeat text-center before:absolute before:left-0 before:top-0 before:h-full before:w-full before:bg-black before:opacity-70"
     >
         <div className="relative py-20 md:py-40">

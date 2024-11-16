@@ -18,7 +18,7 @@ const Footer = () => {
 				<div className="flex flex-col p-4 md:flex-row">
 					<div className="widget1 mb-6 w-full pr-10 md:w-1/4">
 						<img src="https://templates.envytheme.com/ecorik/default/assets/img/home-one/logo.jpg" alt="" className="mb-4" />
-						<p className="text-slate-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestiae corporis, magni maxime perferendis ducimus.</p>
+						<p className="text-slate-300">Experience comfort, hospitality, and the charm of coastal Maharashtra with us!</p>
 						<ul className="flex mt-2 gap-2">
 							<li>
 								<Link to="#" target="_blank">
