@@ -8,6 +8,7 @@ import { PiMapPinArea } from 'react-icons/pi'
 import { IoIosPhonePortrait } from 'react-icons/io'
 import { PiEnvelopeThin } from 'react-icons/pi'
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa'
+import logo from "../img/logo.jpg"
 
 
 
@@ -17,7 +18,7 @@ const Footer = () => {
 			<div className="mx-auto w-5/6 overflow-x-hidden pt-16 md:pt-28">
 				<div className="flex flex-col p-4 md:flex-row">
 					<div className="widget1 mb-6 w-full pr-10 md:w-1/4">
-						<img src="https://templates.envytheme.com/ecorik/default/assets/img/home-one/logo.jpg" alt="" className="mb-4" />
+						<img src={logo} alt="logo" className="mb-4 w-28" />
 						<p className="text-slate-300">Experience comfort, hospitality, and the charm of coastal Maharashtra with us!</p>
 						<ul className="flex mt-2 gap-2">
 							<li>

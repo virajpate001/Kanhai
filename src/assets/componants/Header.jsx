@@ -4,6 +4,7 @@ import { Link as ScrollLink } from "react-scroll";
 import { FaLongArrowAltRight } from 'react-icons/fa'
 import { IoIosMenu, IoMdClose } from 'react-icons/io'
 import { Link } from "react-router-dom";
+import logo from "../img/logo.jpg"
 
 
 
@@ -40,7 +41,7 @@ const Header = () => {
           }`}
         >
           <div>
-            <img src="https://templates.envytheme.com/ecorik/default/assets/img/home-one/logo.jpg" alt="logo" />
+            <img src={logo} className=" w-28" alt="logo" />
           </div>
           <div>
             <nav>
@@ -95,7 +96,7 @@ const Header = () => {
 						}`}
           >
             <div className="logo">
-              <img src="https://templates.envytheme.com/ecorik/default/assets/img/home-one/logo.jpg" alt="logo" />
+              <img src={logo} alt="logo" />
             </div>
             <div>
               <div

@@ -64,7 +64,7 @@ const Banner = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="https://www.instagram.com/">
+                    <Link to="https://www.instagram.com/kanhai_homestay_diveagar/" target='_blank'>
                         <FaInstagram className="text-3xl rounded-full bg-black p-2 text-white jello-horizontal hover:bg-white hover:text-black" />
                     </Link>
                 </li>
